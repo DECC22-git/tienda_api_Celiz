@@ -13,7 +13,8 @@ class Client extends Model
         return $this->hasMany(Order::class,'clients_id');
     }
     protected $fillable = [
-        "name",
+        'firts_name',
+        "last_name",
         "email",
         "phone",
         "address"

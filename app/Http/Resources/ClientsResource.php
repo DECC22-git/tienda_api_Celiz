@@ -20,6 +20,7 @@ class ClientsResource extends JsonResource
             "email"=>$this->email,
             "phone"=>$this->phone,
             "address"=>$this->address,
+            "city"=>$this->city,
         ];
     }
 }

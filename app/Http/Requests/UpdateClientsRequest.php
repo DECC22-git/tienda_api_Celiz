@@ -28,6 +28,7 @@ class UpdateClientsRequest extends FormRequest
             "email"=>'required|email|unique:clients,email',
             "phone"=>'nullable|String|max:20',
             "address"=>'nullable|String',
+            "city"=>'nullable|String',
         ];
     }
 }
